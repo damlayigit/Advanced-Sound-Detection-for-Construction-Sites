@@ -18,16 +18,12 @@ Clone the repository:
 
 git clone https://github.com/damlayigit/Advanced-Sound-Detection-for-Construction-Sites.git
 
-Install the required dependencies:
-
-pip install -r requirements.txt
-
 Prepare your dataset:
 
 Place your recorded audio files in the ./data/ directory. The system is designed to work with .wav files. Ensure that each audio file is clearly named according to the machine and material being recorded.
 Run the feature extraction and classification:
 
-python main.py
+project.ipynb
 
 View the results:
 
