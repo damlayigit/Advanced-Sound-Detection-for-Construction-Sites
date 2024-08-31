@@ -7,10 +7,10 @@ This project is a sound recognition prototype aimed at improving construction au
 # Features
 
 Identifies different types of machines and the materials they are working on (e.g., drill on concrete, grinder on brick).
-Achieved up to 80% accuracy with the RandomForest classifier. Performance varies depending on background noise and the length of audio samples.
+Achieved up to 86% accuracy with the Support Vector classifier. Performance varies depending on background noise and the length of audio samples.
 Accurately determines the number of times a machine is used by analyzing sound wave patterns.
 Extracts MFCC, Chroma, Contrast, and Tonnetz features from audio files for classification.
-Includes results from various classifiers like RandomForest, AdaBoost, KNN, and MLP.
+Includes results from various classifiers like Support Vector, RandomForest, AdaBoost, KNN, and MLP.
 
 # Installation
 
