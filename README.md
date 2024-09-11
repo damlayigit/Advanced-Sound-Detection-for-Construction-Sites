@@ -18,21 +18,21 @@ Clone the repository:
 
 git clone https://github.com/damlayigit/Advanced-Sound-Detection-for-Construction-Sites.git
 
-Prepare your dataset:
+Install the required libraries.
 
-Place your recorded audio files in the ./data/ directory. The system is designed to work with .wav files. Ensure that each audio file is clearly named according to the machine and material being recorded.
-Run the feature extraction and classification:
+Train the Model: Run the training script to train the classifier on the dataset: python train_model.py
 
-project.ipynb
+Use the Model: To recognize a sound, place your audio files in the desired folder and run: python use_model.py
+
+Add New Recordings: Add new .wav recordings to the New_Recordings/ folder and update the filepath in the script:
+
+filepath = r"./New_Recordings/NewRecording1.wav"
+
+Make sure your recordings are in .wav format before using them with the model.
 
 View the results:
 
 The classification results and analysis will be output to the console and saved in the specified directory.
-
-# Usage
-
-To train the model on new data, simply add your .wav files to the ./data/ directory and rerun the script.
-You can adjust the machine learning model parameters in the main.py script to optimize performance.
 
 # Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
